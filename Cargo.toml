@@ -1,0 +1,15 @@
+[package]
+name = "shara-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0.1"
+wither = { git = "https://github.com/thedodd/wither" }
+toml = "0.5.9"
+serde_derive = "1.0.137"
+serde = "1.0.137"
+colour = "0.6.0"
+nanoid = "0.4.0"
+chrono = "0.4.19"
+tokio = { version = "1", features = ["full"] }
